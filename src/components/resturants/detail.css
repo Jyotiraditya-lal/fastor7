@@ -18,13 +18,15 @@
 }
 
 .foreground-image {
-    position: absolute; 
-    bottom: 0; 
-    right: 0; 
-    width: 150px; 
-    height: auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: auto;
     z-index: 1;
 }
+
 
 .details {
     text-align: center;
